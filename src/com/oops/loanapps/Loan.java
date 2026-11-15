@@ -34,7 +34,7 @@ public class Loan {
 		
 	}
 	double roi(int cibil) {
-		double roi=14;
+		double roi=13;
 		if(cibil>800  && cibil<=900) {
 			System.out.println("Excellent cibil ");
 			roi-=5;
